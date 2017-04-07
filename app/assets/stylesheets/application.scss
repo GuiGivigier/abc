@@ -39,11 +39,12 @@ img {
 
 
 #stage {
-    background: url('stage.jpg') center center no-repeat;
+   background-image: image-url("stage.jpg");
+
     background-size: cover;
     color: white;
     height: 100%;
-    width: 100%;
+    width: 100%;    
     display: flex;
     align-items: center;
 }
